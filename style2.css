@@ -1,0 +1,39 @@
+.button{
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+.im{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+position: fixed;
+height: 100%;
+left: 0;
+bottom: 0;
+width:100% ;
+z-index: -1;
+}
+.org-button{ 
+    background-color:White; 
+    color:rgb(12, 13, 13);
+    font-size:x-large;
+    border: none;
+    height: 120px;
+    width: 240px;
+    border-radius:10px;
+    align-items: center;
+    cursor: pointer;
+}
+.emp-button{
+    background-color: White;
+    color:rgb(12, 13, 13);
+    font-size:x-large;
+    border: none;
+    height: 120px;
+    width: 240px;
+    border-radius:10px; 
+    cursor: pointer;
+}

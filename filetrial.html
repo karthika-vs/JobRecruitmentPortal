@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="filetrial.css">
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>UPLOAD RESUME</h1>
+        <form action="filetrial.php" method="post" enctype="multipart/form-data">
+            <div class="input-field">
+                <label for="orgname">Enter the Organisation name you are applying for</label>
+                <input type="text" class="inputs" placeholder="Organisation name" name="orgname" required>
+              </div>
+        <label for="file">Choose a file:</label>
+        <input type="file" name="file" id="file" required>
+        <button type="submit" name="submit">Upload</button>
+        </form>
+    </div>
+
+</body>
+</html>

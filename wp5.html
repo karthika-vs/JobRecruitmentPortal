@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration Form For Job Seeker</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Registration Form For Job Seeker</h2>
+    <form action="signupj.php" method="post">
+        <div class="input-field">
+          <label for="name">Name</label>
+          <input type="text" class="inputs" placeholder="Name" name="name" required>
+        </div>
+        <div class="input-field">
+          <label >Email</label>
+          <input type="email" class="inputs" placeholder="Email" name="email" required>
+        </div>
+        <div class="input-field">
+          <label for="age">Age</label>
+          <input type="number" class="inputs" placeholder="Age" name="age" required>
+        </div>
+        <div class="input-field">
+          <label for="gender">Gender</label>
+          <input type="text" class="inputs" placeholder="Gender" name="gender" required>
+        </div>
+        <div class="input-field">
+          <label for="phonenum">Phone Number</label>
+          <input type="number" class="inputs" placeholder="Phone number" name="phonenum" required>
+        </div>
+        <div class="input-field">
+          <label for="city">City</label>
+          <input type="text" class="inputs" placeholder="City" name="city" required>
+        </div>
+        <div class="input-field">
+          <label for="password">Password</label>
+          <input type="password" class="inputs" placeholder="Password" name="password" required>
+        </div>
+        <div class="input-field">
+          <label for="conpassword">Confirm Password</label>
+          <input type="password" class="inputs" placeholder="Confirm Password" name="conpassword" required>
+        </div>
+
+      <div class="button">
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

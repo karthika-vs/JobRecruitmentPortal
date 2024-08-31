@@ -1,0 +1,40 @@
+/* Style the container div for each row */
+.row-container {
+    display:inline-block;
+    justify-content: space-between;
+    width:400px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #9cdfcb;
+    background-color: #7C9D96;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: padding 0.3s ease;
+}
+
+/* Style individual items (e.g., email and password) */
+.item {
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* Add spacing between rows */
+.row-container + .row-container {
+    margin-top: 20px;
+}
+
+.apply-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WEBPAGE2</title>
+  <link rel="stylesheet" href="style1.css">
+  <script>
+    function redirectToWebpage() {
+      window.location.href = 'wp4.html';
+    }
+    function validate(){
+          var email = document.login_form.email;
+          var password = document.login_form.password;
+      }
+  </script>
+</head>
+<body>
+  <div class="login-form">
+    <form action="index1.php" method="post" name="login_form" onsubmit=" return validate()">
+      <h1>Login Form for Organisation</h1>
+      <div class="content">
+        <div class="input-field">
+          <input type="text" name="email" placeholder="Email" autocomplete="nope">
+        </div>
+        <div class="input-field">
+          <input type="password" name="password" placeholder="Password" autocomplete="new-password">
+        </div>   
+      </div>
+      <div class="action">
+        <!-- Corrected JavaScript code for redirection -->
+        <button onclick="redirectToWebpage()" type="button">Sign up</button>
+        <button>Sign in</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

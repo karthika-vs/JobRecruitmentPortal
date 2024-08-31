@@ -1,0 +1,21 @@
+.column-right
+  {
+    margin-left: 100px;
+    font-size: 15px;
+    padding-right: 50px;
+    padding: 40px;
+    width: 500px;
+  }
+  
+  .p1,.p2,.p3,.p4,.p5,.p6
+  {
+  font-size: 15px;
+  display:inline-block;
+  width: 400px;
+  border: solid;
+  border-width: 0.5px;
+  padding: 20px;
+  margin: 2px;
+  background-color: rgb(255, 255, 255);
+  }
+  

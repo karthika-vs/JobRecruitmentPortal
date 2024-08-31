@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration Form For Organisation</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Registration Form For Organisation</h2>
+    <form action="signupo.php" method="post">
+        <div class="input-field">
+          <label for="orgname">Organisation Name</label>
+          <input type="text" class="inputs" placeholder="Organisation name" name="orgname" required>
+        </div>
+        <div class="input-field">
+          <label >Owner Name</label>
+          <input type="text" class="inputs" placeholder="Owner Name" name="ownername" required>
+        </div>
+        <div class="input-field">
+          <label for="basedon">Based On</label>
+          <input type="text" class="inputs" placeholder="Based On" name="basedon" required>
+        </div>
+        <div class="input-field">
+          <label for="offnum">Office number</label>
+          <input type="number" class="inputs" placeholder="Office Number" name="offnum" required>
+        </div>
+        <div class="input-field">
+          <label for="city">City</label>
+          <input type="text" class="inputs" placeholder="City"name="city" required>
+        </div>
+        <div class="input-field">
+          <label for="email">Email</label>
+          <input type="email" class="inputs" placeholder="Email" name="email" required>
+        </div>
+        <div class="input-field">
+          <label for="password">Password</label>
+          <input type="password" class="inputs" placeholder="Password" name="password" required>
+        </div>
+        <div class="input-field">
+          <label for="conpassword">Confirm Password</label>
+          <input type="password" class="inputs" placeholder="Confirm Password" name="conpassword" required>
+        </div>
+
+      <div class="button">
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

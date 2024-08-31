@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <div class="all">
+    <div class="left">
+      <a href="main.php">HOME</a>
+      <a href="vacancy.html">ADD VACANCY</a>
+      <a href="userOrg.php">USER</a>
+      <a href="wp1.html">LOGOUT</a>
+    </div>
+  </div>
+  <h1></h1>
+</body>
+<head>
+  <title>ADD VACANCY</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>ADD VACANCY</h2>
+    <form action="vacancy.php" method="post">
+        <div class="input-field">
+          <label for="orgname">Organisation Name</label>
+          <input type="text" class="inputs" placeholder="Organisation name" name="orgname" required>
+        </div>
+        <div class="input-field">
+          <label for="domain">Domain</label>
+          <select name="domain" class="inputs" required>
+            <option value="" disabled selected>Select domain</option>
+            <option value="cyber security">Cyber Security</option>
+            <option value="data science">Data science</option>
+            <option value="software systems">Software systems</option>
+            <option value="education">Education</option>
+            <option value="marketing">Marketing</option>
+            <option value="legal">Legal</option>
+            <option value="health care">Health Care</option>
+            <option value="it">IT</option>
+            <option value="finance">Finance</option>
+            <option value="entertainment">Entertainment</option>
+        </select>
+        </div>
+        <div class="input-field">
+          <label for="position">Vacant Position</label>
+          <input type="text" class="inputs" placeholder="Vacant Position" name="position" required>
+        </div>
+        <div class="input-field">
+          <label for="qualification">Qualification</label>
+          <select name="qualification" class="inputs" required>
+            <option value="" disabled selected>Select Qualification</option>
+            <option value="Bsc">Bsc</option>
+            <option value="Msc">Msc</option>
+            <option value="Btech">Btech</option>
+            <option value="Mtech">Mtech</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+            <option value="BE">BE</option>
+            <option value="ME">ME</option>
+            <option value="Phd">Phd</option>
+        </select>
+        </div>
+        <div class="input-field">
+          <label for="minexp">Minimum Experience</label>
+          <input type="number" class="inputs" placeholder="Minimum Experience" name="minexp" required>
+        </div>
+        <div class="input-field">
+          <label for="contact">Contact Email</label>
+          <input type="email" class="inputs" placeholder="email" name="contact" required>
+        </div>
+
+      <div class="button">
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
