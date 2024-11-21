@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>Display Data</title>
-    <link rel="stylesheet" type="text/css" href="domain.css">
-    <link rel="stylesheet" type="text/css" href="style5.css">
+    <link rel="stylesheet" type="text/css" href="Styles/domain.css">
+    <link rel="stylesheet" type="text/css" href="Styles/style5.css">
 </head>
 <body>
     <?php

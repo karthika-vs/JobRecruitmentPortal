@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>File Gallery</title>
-    <link rel="stylesheet" href="trial.css">
+    <link rel="stylesheet" href="Styles/trial.css">
 </head>
 <body>
     <div class="container">

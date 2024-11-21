@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Display Data</title>
-    <link rel="stylesheet" type="text/css" href="domain.css">
+    <link rel="stylesheet" type="text/css" href="Styles/domain.css">
 </head>
 <body>
     <?php
